@@ -3,6 +3,14 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
 #topics{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
